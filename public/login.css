@@ -66,3 +66,14 @@ body {
     background: white; 
     
 }
+
+@media only screen and (max-width : 1022px) {
+
+.container{ 
+    color: white;
+    padding: 50px 50px;
+    margin: 10px 10px;
+     
+}
+
+}
