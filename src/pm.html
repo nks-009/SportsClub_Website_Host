@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>SportsClub</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type='text/css' href="style.css">
+  <link rel="stylesheet" type='text/css' href="res.css">
+  <link rel="stylesheet" type='text/css' href="pm.css">
+  <link rel="icon" href="/img/sc.jpg" type="image/icon type">
+</head>
+
+<body>
+  <header class="navbar h-nav-resp">
+
+    <div class="lhead">
+      <img src="/img/logo.png" alt="">
+      <a href="/aflog">SportsClub</a>
+    </div>
+    <ul class="mhead v-class-resp">
+
+      <li><a href="/aflog">Home</a></li>
+      <li><a href="/aflAbout">About</a></li>
+      <li>
+        <div class="drop">
+          <button class="dbtn">Offerings
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dcon">
+            <a href="/aflcricket">Cricket</a>
+            <a href="/aflfootball">Football</a>
+          </div>
+        </div>
+
+
+      </li>
+      <li><a href="/aflcontact">Contact</a></li>
+      <li><a href="/apply">Apply</a></li>
+
+    </ul>
+    <div class="rhead v-class-resp">
+      <button class="openBtn"><a href="/afll">Logout</a></button>
+    </div>
+
+
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+
+  </header>
+
+
+  <div id="myOverlay" class="overlay">
+    <div class="f">
+
+      <div class="overlay-content">
+        <div><span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        </div>
+        <div class="fo">
+          <h4>Register Here</h4>
+        </div>
+        <div class=" fi">
+          <p>Are you interested to be part of my club? We would love to meet!</p>
+        </div>
+        <div>
+          <form action="/" method="post" class="si">
+            <div><input type="text" placeholder="Name" name="name"></div>
+            <div><input type="email" placeholder="Email" name="email"></div>
+            <div><input type="text" placeholder="Password" name="password"></div>
+            <div><button type="submit">Submit</button></div>
+          </form>
+        </div>
+      </div>
+
+      <div class="t">
+        <div class="c"><span>CALL</span>
+          <div>+91-000-000-0000</div>
+        </div>
+        <div class="c"><span>OR</span></div>
+        <div class="c"><span>MAIL</span>
+          <div>abc@gmail.com</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="fcont">
+
+    <div class="inf">
+      <div class="ci">
+        <div class="r1t">
+          Card Information
+        </div>
+        <div class="r2t">
+          Indicate details of the card from which money will be debited
+        </div>
+        <div class="cpic">
+          <img id="ph" src="/img/viss.png" alt="">
+          <div>Card number</div>
+          <input class="unc" type="number"
+            name="" id="" placeholder="0000 0000 0000 0000">
+          <div class="ln"></div>
+          <div class="cvv">
+            <div class="my">
+              <div>Month and year</div>
+              <div class="myf">
+                <div>
+                  <input class="un"
+                    type="number" name="" id="" placeholder="00">
+                  <div class="ln"></div>
+                </div>
+                <div>/</div>
+                <div>
+                  <input class="un"
+                    type="number" name="" id="" placeholder="00">
+                  <div class="ln"></div>
+                </div>
+              </div>
+            </div>
+            <div class="cv">
+              <div>CVV code</div>
+              <input class="unn" type="number"
+                name="" id="" placeholder="***">
+              <div class="ln2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pi">
+        <div class="r1t">
+          UPI Payment
+        </div>
+        <div class="r2t">
+          Total Amount 1000
+        </div>
+        <div class="r2t">
+          How would you like to pay?
+        </div>
+        <div class="ao">
+          <div class="c3">
+            <input type="radio" name="sn" id="">
+            <div>Paytm</div>
+            <img src="/img/pt.png" alt="">
+          </div>
+          <div class="c3">
+            <input type="radio" name="sn" id="">
+            <div>Amazon Pay</div>
+            <img src="/img/ap.jpg" alt="">
+          </div>
+          <div class="c3">
+            <input type="radio" name="sn" id="">
+            <div>Google Pay</div>
+            <img src="/img/gp.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pym">
+      <button id="pb"> <a href="/pmsf"> Pay | 1000 </a></button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="fo1">Copyright © 2022 SportsClub.com</div>
+    <div class="fo2"><a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-github"></a>
+    </div>
+  </footer>
+
+</body>
+<script src="pm.js"></script>
+
+</html>
