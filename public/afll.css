@@ -19,3 +19,22 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.inh{
+    height: 80vh;
+}
+
+@media only screen and (max-width : 768px) {
+
+
+    #pb{
+        height: inherit;
+        width: inherit;
+        
+    }
+    .inh{
+        height: 80vh;
+    }
+
+
+}

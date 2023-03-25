@@ -178,12 +178,13 @@
     
     .ws{
         width: 40vb;
-        font-size: 8px;
+        font-size: 18px;
         margin: 10px 0px;
     }
 
     .cont{
-        height: 40vh;
+        height: 80vh;
+        padding-top: 50px;
     }
     .sq{
         font-size: 16px;
