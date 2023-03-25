@@ -15,15 +15,17 @@
         justify-content: space-evenly;
         padding: 0px 0px 0px 0px;
     }
+
+    #services .box {
+        padding: 10px 10px;
+    }
+    
     .sp14 {
         margin: 0px 0px 0px 0px;
     }
 
     .spon {
         display: flex;
-
-        justify-content: space-around;
-        align-items: center;
     }
     .box{
         margin: 0px 60px;
@@ -54,11 +56,13 @@
     .left {
         margin: 10px 0px;
         height: 80vh;
+        margin: 4px 50px;
     }
 
     .right {
         height: 80vh;
         margin: 10px 0px;
+        margin: 4px 50px;
     }
 
     /* footer */
@@ -164,6 +168,8 @@
 
     .section {
         flex-direction: column-reverse;
+        row-gap: 10px;
+        padding: 20px 0px 20px 0px;
     }
     .paras {
         padding: 0px 0px;

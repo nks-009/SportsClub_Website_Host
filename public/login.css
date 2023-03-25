@@ -68,6 +68,9 @@
     background: white; 
     
 }
+.lin{
+    font-size: 60px;
+}
 
 @media only screen and (max-width : 768px) {
 
@@ -75,6 +78,9 @@
     color: white;
     padding: 90px 90px;
     margin: 0px 10px;
+}
+.lin{
+    font-size: 30px;
 }
 
 }
