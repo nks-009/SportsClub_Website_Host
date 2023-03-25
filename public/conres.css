@@ -152,6 +152,10 @@
         margin: 3px 0px;
     }
 
+    .all{
+        height: 88vh;
+    }
+
     /* footer */
     footer {
         display: flex;
