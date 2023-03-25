@@ -255,7 +255,7 @@ a {
 }
 
 .left {
-    background-image: url('/img/thll.avif');
+    background-image: url('/img/thll.jpg');
     background-size: 100% 100%;
     border-radius: 8px;
     margin-bottom: 100px;
@@ -381,6 +381,3 @@ a {
     font-size: 20px;
 }
 
-.dsa{
-    height: 80vh;
-}

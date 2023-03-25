@@ -131,7 +131,6 @@
 
     .f {
         margin: 40px 80px;
-        height: 70vh;
     }
 
     .c {
@@ -183,4 +182,7 @@
         height: 400px;
     }
 
+    .dsa{
+        height: 80vh;
+    }
 }
