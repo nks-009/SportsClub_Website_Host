@@ -183,7 +183,7 @@
     }
 
     .cont{
-        height: 80vh;
+        height: 70vh;
         padding-top: 50px;
     }
     .sq{
@@ -197,8 +197,8 @@
     .comm{
     
         width: 90%;
-        height: 20px;
-        padding: 0px 0px;
+        height: 30px;
+        padding: 0px 5px;
         margin: 20px auto;
     
     }
