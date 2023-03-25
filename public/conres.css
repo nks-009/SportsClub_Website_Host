@@ -47,6 +47,7 @@
 
     .f {
         margin: 40px 80px;
+        height: 70vh;
     }
 
     .c {
@@ -87,7 +88,7 @@
         width: 70%;
         height: 50px;
         margin: 10px 0px 0px 0px;
-        font-size: x-large;
+        font-size: large;
     }
     .tinp{
         text-align: center;

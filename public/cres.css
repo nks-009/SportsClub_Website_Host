@@ -64,6 +64,7 @@
 
     .f {
         margin: 40px 80px;
+        height: 70vh;
     }
 
     .c {
@@ -132,7 +133,7 @@
     }
 
     .firstSection {
-        height: 100vh;
+        height: 80vh;
         padding-top: 10px;
     }
 

@@ -21,13 +21,16 @@
 
     .spon {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+
+        justify-content: space-around;
         align-items: center;
+    }
+    .box{
+        margin: 0px 60px;
     }
 
     .spon img {
-        height: 140px;
+        height: 80px;
     }
 
     /* thla class content */
@@ -122,6 +125,7 @@
 
     .f {
         margin: 40px 80px;
+        height: 70vh;
     }
 
     .c {

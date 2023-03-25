@@ -49,6 +49,7 @@
 
     .f {
         margin: 40px 80px;
+        height: 70vh;
     }
 
     .c {
@@ -106,8 +107,13 @@
     .bt {
         padding: 4px 4px;
         margin-top: 5px;
-        margin-left: 108px;
         font-size: 7px;
+    }
+    .bnm{
+        font-size: 30px;
+    }
+    .jkl{
+        display: flex; align-items: center; justify-content: center; margin-bottom: 20px;
     }
 
     .box {
@@ -216,10 +222,14 @@
 
     .o_fo {
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
+        row-gap: 5px;
 
 
+    }
+    .ccv{
+        margin-right: 30px;
     }
 
 
