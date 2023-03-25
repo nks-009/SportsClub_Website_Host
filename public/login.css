@@ -15,6 +15,7 @@
 .mco{
     background: url('/img/logbg.jpg') no-repeat center center fixed;
     background-size: cover;
+    height: 80vh;
 }
 
 .container h1{
@@ -82,8 +83,6 @@
 .lin{
     font-size: 30px;
 }
-.mco{
-    height: 88vh;
-}
+
 
 }
